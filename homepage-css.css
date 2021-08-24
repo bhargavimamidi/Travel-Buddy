@@ -1,0 +1,429 @@
+
+
+.bottom-half
+{
+    background-image:url("https://image.freepik.com/free-vector/abstract-pattern-design_1053-523.jpg") ;
+    display: inline-block;
+    clear: both;
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 100%;
+}
+.container
+{
+
+}
+.login-box {
+    margin-top: 75px;
+    height: auto;
+    background:url("https://image.freepik.com/free-vector/abstract-pattern-design_1053-523.jpg") ;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-key {
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid  goldenrod;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+
+input[type=password] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid  goldenrod;
+    outline: 0;
+    background-color: #1A2226;
+    color: #ECF0F5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 10px;
+    color: #6C6C6C;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    border-color:  goldenrod;
+    color:  goldenrod;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color:  goldenrod;
+    right: 0px;
+}
+
+.login-btm {
+    float: left;
+}
+
+.login-button {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.login-text {
+    text-align: left;
+    padding-left: 0px;
+    color: #A2A4A4;
+}
+
+.loginbttm {
+    padding: 0px;
+}
+.img
+{
+    width:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.right
+{
+    background-image:url("https://image.freepik.com/free-vector/abstract-pattern-design_1053-523.jpg") ;
+    border-radius: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.btn {		
+	position: relative;	
+	padding: 1.4rem 4.2rem;
+	padding-right: 3.1rem;
+	font-size: 1.4rem;
+	color: var(--inv);
+	letter-spacing: 1.1rem;
+	text-transform: uppercase;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+	cursor: pointer;
+	user-select: none;
+    
+}
+
+.btn:before, .btn:after {
+	content: '';
+	position: absolute;	
+	transition: inherit;
+	z-index: -1;
+}
+
+.btn:hover {
+	color: var(--def);
+	transition-delay: .5s;
+}
+
+.btn:hover:before {
+	transition-delay: 0s;
+}
+
+.btn:hover:after {
+	background: var(--inv);
+	transition-delay: .35s;
+}
+
+
+
+nav ul li {
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.1em solid var(--c);
+    border-radius: 0.5em;
+    width: 15em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    margin-left: 3em;
+}
+.first-button 
+{
+    margin-top: 5em;
+}
+.fancy-buttons{
+    width: 18em;
+    margin-top: 0%;
+}
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+.f-buttons
+{
+    width: 20em;
+    color: black;
+    color:goldenrod ;
+}
+.f-buttons:hover{
+    color: black;
+}
+
+.f-buttons:hover span{
+    transform: translateY(0) scale(2);
+}
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+nav ul li span:nth-child(4) {
+    --n: 6;
+}
+
+.fancy-buttons
+{
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        display: inline-block;
+    float: right;
+    background-image: url("https://image.freepik.com/free-vector/abstract-pattern-design_1053-523.jpg");
+    clear: right;
+    margin-top: 0%;
+    margin-right: 3%;
+    width: 45%;
+    height: 50%;
+    border-radius: 1em;
+    float: top;
+    box-shadow: blue 0px 3px 8px;
+
+
+    }
+    
+
+.icon-cards
+{
+    position: absolute;
+    left:25%;
+    top:60%;
+    width:400px;
+    height:350px;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+    object-fit: cover;
+    display: inline-block;
+    background-image: ;
+}
+.nav
+{
+    display: inline-block;
+    float: right;
+    background-image: url("https://image.freepik.com/free-vector/abstract-pattern-design_1053-523.jpg");
+    clear: right;
+    margin-top: 7%;
+    margin-right: 3%;
+    width: 45%;
+    height: 50%;
+
+
+    
+}
+.nav flex-column
+{
+    clear: right;
+}
+.buttons
+{
+    display: inline-block;
+    float: right;
+    background:black;
+    clear: right;
+    clear: right;
+    margin-top: 7%;
+    margin-right: 3%;
+    width: 45%;
+    height: 100px;
+}
+
+.icon-cards-content
+{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: translateZ(-145px) rotateY(0);
+    animation: carousel 10s infinite cubic-bezier(1, 0.015, 0.295,1.225) forwards;
+
+}
+
+.icon-cards-item
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    
+    object-fit: cover;
+    border-radius: 5px;
+}
+.icon-cards-item:nth-child(1){
+transform: rotateY(72deg) translateZ(282px);
+background: url("https://images.unsplash.com/photo-1588877904848-470c9535eb81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+max-width: 100%;
+max-height: 100%;
+object-fit: scale-down;
+}
+
+.icon-cards-item:nth-child(2){
+    transform: rotateY(144deg) translateZ(282px);
+    background: url("https://images.unsplash.com/photo-1506461883276-594a12b11cf3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+}
+
+.icon-cards-item:nth-child(3){
+        transform: rotateY(216deg) translateZ(282px);
+        background: url("https://images.unsplash.com/photo-1577786105688-135610a7168d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=576&q=80");
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+}
+
+.icon-cards-item:nth-child(4){
+    transform: rotateY(288deg) translateZ(282px);
+    background: url("https://images.unsplash.com/photo-1593369534749-85bc2f3cf810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80");
+    max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+}
+.icon-cards-item:nth-child(5){
+    transform: rotateY(360deg) translateZ(282px);
+    background: url("https://images.unsplash.com/photo-1519955266818-0231b63402bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    max-width: 100%;
+        max-height: 100%;
+        object-fit: scale-down;
+}
+
+@keyframes carousel
+{
+    0%
+    15%{
+        transform: translateZ(-145px) rotateY(0);
+    }
+    25%,
+    40%
+    {
+        transform: translateZ(-145px) rotateY(-72deg);
+    }
+    50%,
+    65%
+    {
+        transform: translateZ(-145px) rotateY(-144deg);
+    }
+    75%,
+    90%
+    {
+        transform: translateZ(-145px) rotateY(-216deg);
+    }
+}
+
